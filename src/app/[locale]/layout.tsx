@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation'
 import { locales } from '@/i18n'
 import useTextDirection from '@/hooks/useTextDirection'
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
